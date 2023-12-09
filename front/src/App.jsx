@@ -63,7 +63,7 @@ function App() {
   };
 
   return (
-    <div className="text-center top-0 pt-2 mx-40">
+    <div className="text-center top-0 pt-2 mx-40 bg-slate-300">
       <h1 className="text-2xl font-semibold mb-2">Task List</h1>
       <table className="min-w-full border rounded overflow-hidden">
         <thead className="bg-gray-800 text-white">
