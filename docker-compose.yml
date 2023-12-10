@@ -1,4 +1,4 @@
-version: "2.23.3-desktop.2"
+version: "2.23.3"
 
 services:
   frontend:
@@ -6,7 +6,6 @@ services:
       context: ./front
     ports:
       - "5173:5173"
-    command: npx vite --host
 
   backend:
     build:
